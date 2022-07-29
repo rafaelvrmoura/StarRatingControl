@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'StarRatingControl_Example' do
+  pod 'StarRatingControl', :path => '../'
+
+  target 'StarRatingControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
