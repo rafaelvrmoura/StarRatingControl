@@ -1,0 +1,16 @@
+PODS:
+  - StarRatingControl (0.1.0)
+
+DEPENDENCIES:
+  - StarRatingControl (from `../`)
+
+EXTERNAL SOURCES:
+  StarRatingControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StarRatingControl: 84c58a852f97aff3f4dacfbdc2d591dc4c7bafca
+
+PODFILE CHECKSUM: f357cd4c9a5fbd77fe35822711e2f4fd74eb9b2e
+
+COCOAPODS: 1.11.3

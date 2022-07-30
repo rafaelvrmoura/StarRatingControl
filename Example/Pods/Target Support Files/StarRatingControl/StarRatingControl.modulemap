@@ -1,0 +1,6 @@
+framework module StarRatingControl {
+  umbrella header "StarRatingControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

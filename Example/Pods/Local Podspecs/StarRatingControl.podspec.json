@@ -1,0 +1,22 @@
+{
+  "name": "StarRatingControl",
+  "version": "0.1.0",
+  "summary": "A short description of StarRatingControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Rafael Moura/StarRatingControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rafael Moura": "rafael.vrmoura@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Rafael Moura/StarRatingControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "15.5"
+  },
+  "source_files": "StarRatingControl/Classes/**/*"
+}
