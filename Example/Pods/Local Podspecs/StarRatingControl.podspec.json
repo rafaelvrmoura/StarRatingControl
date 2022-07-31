@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "15.5"
   },
-  "source_files": "StarRatingControl/Classes/**/*"
+  "source_files": "StarRatingControl/Classes/**/*",
+  "resources": "StarRatingControl/Localizations/**/*"
 }

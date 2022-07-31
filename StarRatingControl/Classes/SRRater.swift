@@ -106,7 +106,40 @@ public class SRRater: UIControl {
         loadView()
         setupAccessibility()
     }
+}
+
+// MARK: - Private
+private extension SRRater {
     
+    private func loadView() {
+        
+        for i in 1..._maximumValue {
+            
+            let star = SRStar()
+            star.isSelected = i <= _value
+            
+            contentStack.addArrangedSubview(star)
+            
+            // It keeps the aspect ratio whatever is the component's height defined by the users
+            star.widthAnchor.constraint(equalTo: star.heightAnchor).isActive = true
+        }
+    }
+    
+    private func reloadView() {
+        
+        contentStack.removeAllArrangedSubviews()
+        loadView()
+    }
+    
+    private func rate(for star: SRStar) -> Int {
+        
+        return (contentStack.arrangedSubviews.firstIndex(of: star) ?? 0) + 1
+    }
+}
+
+// MARK: - Gesture Handlers
+extension SRRater {
+
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         super.touchesBegan(touches, with: event)
@@ -134,58 +167,26 @@ public class SRRater: UIControl {
     }
 }
 
-// MARK: - Private
-private extension SRRater {
-    
-    private func loadView() {
-        
-        for i in 1..._maximumValue {
-            
-            let star = SRStar()
-            star.isSelected = i <= _value
-            
-            contentStack.addArrangedSubview(star)
-        }
-    }
-    
-    private func reloadView() {
-        
-        contentStack.removeAllArrangedSubviews()
-        loadView()
-    }
-    
-    private func rate(for star: SRStar) -> Int {
-        
-        return (contentStack.arrangedSubviews.firstIndex(of: star) ?? 0) + 1
-    }
-}
-
-// MARK: - Gesture Handlers
-private extension SRRater {
-
-    @objc
-    func didTapStar(_ sender: UITapGestureRecognizer) {
-        
-        guard let star = sender.view as? SRStar else { return }
-        
-        value = rate(for: star)
-    }
-}
-
 // MARK: - Accessibility
 extension SRRater {
 
     private func setupAccessibility() {
         
         isAccessibilityElement = true
-        accessibilityLabel = "Start rating control"
         accessibilityTraits = .adjustable
+        accessibilityLabel = NSLocalizedString("starRatingControl",
+                                               bundle: Bundle.init(for: Self.self),
+                                               comment: "")
+
         updateAccessibility()
     }
     
     private func updateAccessibility() {
         
-        accessibilityValue = "\(_value) stars" // TODO: add localization
+        let localizedFormat = NSLocalizedString("stars",
+                                                bundle: Bundle.init(for: Self.self),
+                                                comment: "")
+        accessibilityValue = String.localizedStringWithFormat(localizedFormat, _value)
     }
     
     public override func accessibilityIncrement() {

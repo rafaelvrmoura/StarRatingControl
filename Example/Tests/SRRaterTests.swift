@@ -1,7 +1,7 @@
 import XCTest
 import StarRatingControl
 
-class SRRaterTests: XCTestCase {
+final class SRRaterTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

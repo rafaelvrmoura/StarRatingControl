@@ -32,9 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'StarRatingControl/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'StarRatingControl' => ['StarRatingControl/Assets/*.png']
-  # }
+  s.resource = 'StarRatingControl/Localizations/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

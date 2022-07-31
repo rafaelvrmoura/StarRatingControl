@@ -13,16 +13,16 @@ class ViewController: UIViewController {
 
     private enum Constants {
         
-        static let horizontalMargin: CGFloat = 10.0
         static let contentSpacing: CGFloat = 20.0
         static let defaultMaximumValue = 5
+        static let horizontalMargin: CGFloat = 10.0
+        static let ratingControlHeight: CGFloat = 30.0
     }
     
     private lazy var ratingControl: SRRater = {
         
         let control = SRRater().usingAutoLayout()
         control.maximumValue = Constants.defaultMaximumValue
-        control.value = 3
         
         control.addTarget(self,
                           action: #selector(valueChanged(_:)),
@@ -119,6 +119,7 @@ class ViewController: UIViewController {
             
             contentStack.trailingAnchor.constraint(lessThanOrEqualTo: view.trailingAnchor,
                                                    constant: -Constants.horizontalMargin),
+            ratingControl.heightAnchor.constraint(equalToConstant: Constants.ratingControlHeight)
         ])
     }
     

@@ -7,71 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17BB798288EA75119EC515ADF24CB71E /* StarRatingControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A1136A59BD9188CAB7111DCEA23248 /* StarRatingControl-dummy.m */; };
 		18F4CDF0C4EBC34F59C0D765205C0557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1A05A2B006D2073DEB77908A74AC227F /* Pods-StarRatingControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA60E2DF40755A40AC64EAB081C1F6 /* Pods-StarRatingControl_Example-dummy.m */; };
+		435658334B23B106B1AF488185E9C2B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		452C7D3EC6008E1CD0C78C8A141A10A4 /* StarRatingControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B4A499DAA9CBDEC7A2F607383D861 /* StarRatingControl-dummy.m */; };
 		582D1E42DEA4AE826291D52B3D625B1F /* Pods-StarRatingControl_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673F64C7F3E3105997110FAA3F0EA8F /* Pods-StarRatingControl_Tests-dummy.m */; };
 		5A3BEB9C2173D714F442BE4B40D6277B /* Pods-StarRatingControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B80694EB07E02E1F77BA74EB7E8233 /* Pods-StarRatingControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		650FE4FEE447ED2F52A4E456A1DD66AD /* SRStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C9743110F2749DE7C3CFD941EACDA /* SRStar.swift */; };
 		78661FE0EF7C928742942594E9D0FCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		97A32AE253887C597A7CDDD205BEBF0F /* SRRater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60054511DC7D94A778F29E520AE2EDF /* SRRater.swift */; };
-		D173DA5D45A916AB55A1EF98FAD5AF30 /* StarRatingControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D148D4C1E4EADA8A48ECF53B017217 /* StarRatingControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCC5E82A4E7C42F680EFFAF407088777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B62BF500CC7160FF8DCB2A5C7206DB2 /* SRStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA422A7755BEE231F1C9CC4AD24B085A /* SRStar.swift */; };
+		9C5B002798C41211F2FFA0BABEB4204F /* StarRatingControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8A4E35564D06C578E04572A7730A25 /* StarRatingControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCBB3F9FC50C1E64DE73C1314DFDA0B /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = C68069C2BB94F3C55A1F2254A000CFC7 /* Localizable.stringsdict */; };
+		A167BA533033A0F15B55E905ACC16FB9 /* SRRater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A343DE8F8D8A5C834B1D923EA05DBBE /* SRRater.swift */; };
+		A40D4023D214870E15ED1E11C2A9A434 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACF2916FAC3CBFDD3114092936F9C518 /* Localizable.strings */; };
 		F6D0580EDD8DC50CE75C27E03BC6C971 /* Pods-StarRatingControl_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75025BF15D3EAAA4200514E30BE0D0FA /* Pods-StarRatingControl_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B58B537BD78795B44DBB3E585F881C2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8619997FDB478D04B288F960036DBB39;
-			remoteInfo = StarRatingControl;
-		};
-		AB449BDBDD385A0C8F57E24146D97CF2 /* PBXContainerItemProxy */ = {
+		2EDAE845D7252688C27E879C89C23D09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 46D5FE5D2B130855637E7408570437D1;
 			remoteInfo = "Pods-StarRatingControl_Example";
 		};
+		3E1D5D37990A3042B4619225B2CFCC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8619997FDB478D04B288F960036DBB39;
+			remoteInfo = StarRatingControl;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06EC8FC0F7AAF4C023B923DDC083B695 /* Pods-StarRatingControl_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StarRatingControl_Tests"; path = Pods_StarRatingControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0949359D3A90469C5396B7C4715F89E3 /* StarRatingControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarRatingControl-prefix.pch"; sourceTree = "<group>"; };
+		0E8A4E35564D06C578E04572A7730A25 /* StarRatingControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarRatingControl-umbrella.h"; sourceTree = "<group>"; };
 		17DF4DA708A174C12A8A863D8939A380 /* Pods-StarRatingControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRatingControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		23B80694EB07E02E1F77BA74EB7E8233 /* Pods-StarRatingControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarRatingControl_Example-umbrella.h"; sourceTree = "<group>"; };
 		2AB71255FC5D18F51959B7ADB9F10907 /* Pods-StarRatingControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRatingControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E46922E02C51F94F4DF8CB5E3AFEDFF /* StarRatingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StarRatingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E46922E02C51F94F4DF8CB5E3AFEDFF /* StarRatingControl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StarRatingControl; path = StarRatingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F457074EB2A235E45EF6138E198748B /* Pods-StarRatingControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRatingControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		39ED10DB7602FCFB8B228256C4F582C4 /* StarRatingControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarRatingControl.release.xcconfig; sourceTree = "<group>"; };
 		4AA2A563E3AD97A97ED823E5396EA758 /* Pods-StarRatingControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRatingControl_Example-Info.plist"; sourceTree = "<group>"; };
-		5E06D2CFD2F727F605FEC8FC42B2D0A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		56884A64ABCD3133629E78B691F17E1D /* StarRatingControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarRatingControl.release.xcconfig; sourceTree = "<group>"; };
 		6673F64C7F3E3105997110FAA3F0EA8F /* Pods-StarRatingControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarRatingControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73A1136A59BD9188CAB7111DCEA23248 /* StarRatingControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarRatingControl-dummy.m"; sourceTree = "<group>"; };
 		75025BF15D3EAAA4200514E30BE0D0FA /* Pods-StarRatingControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StarRatingControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		799CAFB59DA5E58AD60231CFDA262215 /* Pods-StarRatingControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StarRatingControl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7CF8162409ED175A40EFAA559237DF8B /* StarRatingControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarRatingControl.debug.xcconfig; sourceTree = "<group>"; };
-		80FE3D80D4583827B5E2320600A7DB57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7A343DE8F8D8A5C834B1D923EA05DBBE /* SRRater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRRater.swift; path = StarRatingControl/Classes/SRRater.swift; sourceTree = "<group>"; };
+		7C4B4A499DAA9CBDEC7A2F607383D861 /* StarRatingControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StarRatingControl-dummy.m"; sourceTree = "<group>"; };
 		83F74C6B1BD41647A6C995408B30BCC1 /* Pods-StarRatingControl_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StarRatingControl_Example"; path = Pods_StarRatingControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843E335259801E1CDF8A1D0B30F4E093 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		86E90D9FFB6F3C0B0130193834DC31FC /* Pods-StarRatingControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarRatingControl_Tests.modulemap"; sourceTree = "<group>"; };
-		92C782A8F4A4C0E13D9FE452C58525F2 /* StarRatingControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StarRatingControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EB95EC8D95F25569C99ABB67325ACFC /* StarRatingControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StarRatingControl.debug.xcconfig; sourceTree = "<group>"; };
 		92FE2F8AA3253D33869BE4947DB4E855 /* Pods-StarRatingControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StarRatingControl_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB2FC682C2FD9CC37A75168B3EDEBF2E /* StarRatingControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StarRatingControl-Info.plist"; sourceTree = "<group>"; };
+		A2F0DEA391FC62DF212080875F658EA4 /* StarRatingControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarRatingControl.modulemap; sourceTree = "<group>"; };
+		AA422A7755BEE231F1C9CC4AD24B085A /* SRStar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRStar.swift; path = StarRatingControl/Classes/SRStar.swift; sourceTree = "<group>"; };
 		AC3CB3920D958775128794C74ADCCC0E /* Pods-StarRatingControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarRatingControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACF2916FAC3CBFDD3114092936F9C518 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = StarRatingControl/Localizations/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AF1DC8CBBB8CC15395A809A1D181BDA4 /* Pods-StarRatingControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRatingControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC7F22BB979C5FFB45E8E46E6E8D9A3B /* Pods-StarRatingControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRatingControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CE603C3D6A68C86F7A8CE517FD70C272 /* StarRatingControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarRatingControl-prefix.pch"; sourceTree = "<group>"; };
-		D2D148D4C1E4EADA8A48ECF53B017217 /* StarRatingControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StarRatingControl-umbrella.h"; sourceTree = "<group>"; };
+		C68069C2BB94F3C55A1F2254A000CFC7 /* Localizable.stringsdict */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.stringsdict; name = Localizable.stringsdict; path = StarRatingControl/Localizations/en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		C8115502C5384B784B02BAB863721CF4 /* StarRatingControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = StarRatingControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9FAE2A45573A65B38D364C30F726057 /* StarRatingControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StarRatingControl-Info.plist"; sourceTree = "<group>"; };
 		DEAA60E2DF40755A40AC64EAB081C1F6 /* Pods-StarRatingControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StarRatingControl_Example-dummy.m"; sourceTree = "<group>"; };
-		E60054511DC7D94A778F29E520AE2EDF /* SRRater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRRater.swift; path = StarRatingControl/Classes/SRRater.swift; sourceTree = "<group>"; };
 		EF269F35BCA0C736B754C99232C5F440 /* Pods-StarRatingControl_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StarRatingControl_Tests-Info.plist"; sourceTree = "<group>"; };
 		F1492DC2507C7B8D38F7987029EF9E15 /* Pods-StarRatingControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StarRatingControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F4A3DF0470EB89D26AC424C1A26A7B15 /* StarRatingControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StarRatingControl.modulemap; sourceTree = "<group>"; };
+		F224DDCCE6652B9F3606EAAF1DAAF597 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F58448FA6F4EBABF1DED833DD6E70E76 /* Pods-StarRatingControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StarRatingControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE8C9743110F2749DE7C3CFD941EACDA /* SRStar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SRStar.swift; path = StarRatingControl/Classes/SRStar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,40 +95,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC2E9CA47712BBB822B89F1F86F00BE7 /* Frameworks */ = {
+		5BC8D971B2CE4BFD14AA1B0CEEC429B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC5E82A4E7C42F680EFFAF407088777 /* Foundation.framework in Frameworks */,
+				435658334B23B106B1AF488185E9C2B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C882FF598D1582929B255D54A2C345B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F4A3DF0470EB89D26AC424C1A26A7B15 /* StarRatingControl.modulemap */,
-				73A1136A59BD9188CAB7111DCEA23248 /* StarRatingControl-dummy.m */,
-				AB2FC682C2FD9CC37A75168B3EDEBF2E /* StarRatingControl-Info.plist */,
-				CE603C3D6A68C86F7A8CE517FD70C272 /* StarRatingControl-prefix.pch */,
-				D2D148D4C1E4EADA8A48ECF53B017217 /* StarRatingControl-umbrella.h */,
-				7CF8162409ED175A40EFAA559237DF8B /* StarRatingControl.debug.xcconfig */,
-				39ED10DB7602FCFB8B228256C4F582C4 /* StarRatingControl.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/StarRatingControl";
-			sourceTree = "<group>";
-		};
 		1291DF028D498EA8A456A05DC1DD591E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				83F74C6B1BD41647A6C995408B30BCC1 /* Pods-StarRatingControl_Example */,
 				06EC8FC0F7AAF4C023B923DDC083B695 /* Pods-StarRatingControl_Tests */,
-				2E46922E02C51F94F4DF8CB5E3AFEDFF /* StarRatingControl.framework */,
+				2E46922E02C51F94F4DF8CB5E3AFEDFF /* StarRatingControl */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2CDF0FD900CC0E6BA2E89151BC350416 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				843E335259801E1CDF8A1D0B30F4E093 /* LICENSE */,
+				F224DDCCE6652B9F3606EAAF1DAAF597 /* README.md */,
+				C8115502C5384B784B02BAB863721CF4 /* StarRatingControl.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4B3CA698BBBD8CBA2FCF3044DB133617 /* Targets Support Files */ = {
@@ -134,28 +133,6 @@
 				5B5604B00630E41F4E8DD4274D2AD017 /* Pods-StarRatingControl_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		533506DA32ACB91E9332CAD5B9A918F3 /* StarRatingControl */ = {
-			isa = PBXGroup;
-			children = (
-				E60054511DC7D94A778F29E520AE2EDF /* SRRater.swift */,
-				FE8C9743110F2749DE7C3CFD941EACDA /* SRStar.swift */,
-				5766F910EF09F620CAA9C20751A6029C /* Pod */,
-				0C882FF598D1582929B255D54A2C345B /* Support Files */,
-			);
-			name = StarRatingControl;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5766F910EF09F620CAA9C20751A6029C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				80FE3D80D4583827B5E2320600A7DB57 /* LICENSE */,
-				5E06D2CFD2F727F605FEC8FC42B2D0A4 /* README.md */,
-				92C782A8F4A4C0E13D9FE452C58525F2 /* StarRatingControl.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -182,11 +159,26 @@
 			path = "Target Support Files/Pods-StarRatingControl_Tests";
 			sourceTree = "<group>";
 		};
+		9DD6CDF50CB49BA7076D747E9FCBB4C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2F0DEA391FC62DF212080875F658EA4 /* StarRatingControl.modulemap */,
+				7C4B4A499DAA9CBDEC7A2F607383D861 /* StarRatingControl-dummy.m */,
+				D9FAE2A45573A65B38D364C30F726057 /* StarRatingControl-Info.plist */,
+				0949359D3A90469C5396B7C4715F89E3 /* StarRatingControl-prefix.pch */,
+				0E8A4E35564D06C578E04572A7730A25 /* StarRatingControl-umbrella.h */,
+				8EB95EC8D95F25569C99ABB67325ACFC /* StarRatingControl.debug.xcconfig */,
+				56884A64ABCD3133629E78B691F17E1D /* StarRatingControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StarRatingControl";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DB909289CA5FCEC3FCC0A907FA93BC21 /* Development Pods */,
+				F76E234463AA003BB972A631F49373B5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1291DF028D498EA8A456A05DC1DD591E /* Products */,
 				4B3CA698BBBD8CBA2FCF3044DB133617 /* Targets Support Files */,
@@ -218,10 +210,24 @@
 			path = "Target Support Files/Pods-StarRatingControl_Example";
 			sourceTree = "<group>";
 		};
-		DB909289CA5FCEC3FCC0A907FA93BC21 /* Development Pods */ = {
+		EA6B4C96129DDAAE850E5F3D16BE35D1 /* StarRatingControl */ = {
 			isa = PBXGroup;
 			children = (
-				533506DA32ACB91E9332CAD5B9A918F3 /* StarRatingControl */,
+				ACF2916FAC3CBFDD3114092936F9C518 /* Localizable.strings */,
+				C68069C2BB94F3C55A1F2254A000CFC7 /* Localizable.stringsdict */,
+				7A343DE8F8D8A5C834B1D923EA05DBBE /* SRRater.swift */,
+				AA422A7755BEE231F1C9CC4AD24B085A /* SRStar.swift */,
+				2CDF0FD900CC0E6BA2E89151BC350416 /* Pod */,
+				9DD6CDF50CB49BA7076D747E9FCBB4C5 /* Support Files */,
+			);
+			name = StarRatingControl;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F76E234463AA003BB972A631F49373B5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA6B4C96129DDAAE850E5F3D16BE35D1 /* StarRatingControl */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -237,11 +243,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		982DB7003E6937920B16714BD1489774 /* Headers */ = {
+		5A7D201E6C43346A2E4A290139999A84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D173DA5D45A916AB55A1EF98FAD5AF30 /* StarRatingControl-umbrella.h in Headers */,
+				9C5B002798C41211F2FFA0BABEB4204F /* StarRatingControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +274,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E255AA86D64DB874451637598D54A397 /* PBXTargetDependency */,
+				733DC6EB6317CDFC1692E4B20E82C38E /* PBXTargetDependency */,
 			);
 			name = "Pods-StarRatingControl_Example";
 			productName = Pods_StarRatingControl_Example;
@@ -287,7 +293,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BFBF2D744D5ED5689151DB8958D041D8 /* PBXTargetDependency */,
+				ABB48635FA80CB8B061A8E1727360F87 /* PBXTargetDependency */,
 			);
 			name = "Pods-StarRatingControl_Tests";
 			productName = Pods_StarRatingControl_Tests;
@@ -296,12 +302,12 @@
 		};
 		8619997FDB478D04B288F960036DBB39 /* StarRatingControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E268A15C21C2CCDB83BD1EA0A1E008 /* Build configuration list for PBXNativeTarget "StarRatingControl" */;
+			buildConfigurationList = C8F47728F520218E3B50396F5408E2F9 /* Build configuration list for PBXNativeTarget "StarRatingControl" */;
 			buildPhases = (
-				982DB7003E6937920B16714BD1489774 /* Headers */,
-				8FDCBA1C1DAB1623708E782C8E325F7F /* Sources */,
-				CC2E9CA47712BBB822B89F1F86F00BE7 /* Frameworks */,
-				026C4B5B4217A01C4C03B76B99B529CA /* Resources */,
+				5A7D201E6C43346A2E4A290139999A84 /* Headers */,
+				A3F5D0601874D00A288AD1340EE8866B /* Sources */,
+				5BC8D971B2CE4BFD14AA1B0CEEC429B4 /* Frameworks */,
+				C5916C69A3B8D66327629A21DACD49C4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,7 +315,7 @@
 			);
 			name = StarRatingControl;
 			productName = StarRatingControl;
-			productReference = 2E46922E02C51F94F4DF8CB5E3AFEDFF /* StarRatingControl.framework */;
+			productReference = 2E46922E02C51F94F4DF8CB5E3AFEDFF /* StarRatingControl */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -320,11 +326,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					8619997FDB478D04B288F960036DBB39 = {
-						LastSwiftMigration = 1340;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,13 +348,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		026C4B5B4217A01C4C03B76B99B529CA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F7A4D4B5526D036FBA5139A2FA19D5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,6 +362,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5916C69A3B8D66327629A21DACD49C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40D4023D214870E15ED1E11C2A9A434 /* Localizable.strings in Resources */,
+				9CCBB3F9FC50C1E64DE73C1314DFDA0B /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -379,13 +382,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FDCBA1C1DAB1623708E782C8E325F7F /* Sources */ = {
+		A3F5D0601874D00A288AD1340EE8866B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97A32AE253887C597A7CDDD205BEBF0F /* SRRater.swift in Sources */,
-				650FE4FEE447ED2F52A4E456A1DD66AD /* SRStar.swift in Sources */,
-				17BB798288EA75119EC515ADF24CB71E /* StarRatingControl-dummy.m in Sources */,
+				A167BA533033A0F15B55E905ACC16FB9 /* SRRater.swift in Sources */,
+				8B62BF500CC7160FF8DCB2A5C7206DB2 /* SRStar.swift in Sources */,
+				452C7D3EC6008E1CD0C78C8A141A10A4 /* StarRatingControl-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,17 +403,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BFBF2D744D5ED5689151DB8958D041D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-StarRatingControl_Example";
-			target = 46D5FE5D2B130855637E7408570437D1 /* Pods-StarRatingControl_Example */;
-			targetProxy = AB449BDBDD385A0C8F57E24146D97CF2 /* PBXContainerItemProxy */;
-		};
-		E255AA86D64DB874451637598D54A397 /* PBXTargetDependency */ = {
+		733DC6EB6317CDFC1692E4B20E82C38E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StarRatingControl;
 			target = 8619997FDB478D04B288F960036DBB39 /* StarRatingControl */;
-			targetProxy = 8B58B537BD78795B44DBB3E585F881C2 /* PBXContainerItemProxy */;
+			targetProxy = 3E1D5D37990A3042B4619225B2CFCC0B /* PBXContainerItemProxy */;
+		};
+		ABB48635FA80CB8B061A8E1727360F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StarRatingControl_Example";
+			target = 46D5FE5D2B130855637E7408570437D1 /* Pods-StarRatingControl_Example */;
+			targetProxy = 2EDAE845D7252688C27E879C89C23D09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -543,9 +546,9 @@
 			};
 			name = Release;
 		};
-		96988380578393163EA114718D6675FB /* Release */ = {
+		96C4A02707823FC6A6DF5E28CCD8CB00 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39ED10DB7602FCFB8B228256C4F582C4 /* StarRatingControl.release.xcconfig */;
+			baseConfigurationReference = 56884A64ABCD3133629E78B691F17E1D /* StarRatingControl.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -608,37 +611,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		C1191CC28E53E327AFD5BC9950B121EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF8162409ED175A40EFAA559237DF8B /* StarRatingControl.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StarRatingControl/StarRatingControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StarRatingControl/StarRatingControl-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/StarRatingControl/StarRatingControl.modulemap";
-				PRODUCT_MODULE_NAME = StarRatingControl;
-				PRODUCT_NAME = StarRatingControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -706,6 +678,37 @@
 			};
 			name = Debug;
 		};
+		E2BB7879B37513D8D781C5834ADF4482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB95EC8D95F25569C99ABB67325ACFC /* StarRatingControl.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StarRatingControl/StarRatingControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StarRatingControl/StarRatingControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StarRatingControl/StarRatingControl.modulemap";
+				PRODUCT_MODULE_NAME = StarRatingControl;
+				PRODUCT_NAME = StarRatingControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		E4B8F9E6BA22B1A26DE9842ADC5940CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF1DC8CBBB8CC15395A809A1D181BDA4 /* Pods-StarRatingControl_Example.debug.xcconfig */;
@@ -742,15 +745,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E268A15C21C2CCDB83BD1EA0A1E008 /* Build configuration list for PBXNativeTarget "StarRatingControl" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1191CC28E53E327AFD5BC9950B121EF /* Debug */,
-				96988380578393163EA114718D6675FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -774,6 +768,15 @@
 			buildConfigurations = (
 				4A21C31085F23C3C9B89D0E36D2F5FB2 /* Debug */,
 				292475A396A50B46498F85F903E80CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F47728F520218E3B50396F5408E2F9 /* Build configuration list for PBXNativeTarget "StarRatingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BB7879B37513D8D781C5834ADF4482 /* Debug */,
+				96C4A02707823FC6A6DF5E28CCD8CB00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
