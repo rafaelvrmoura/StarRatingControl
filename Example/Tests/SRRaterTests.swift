@@ -136,4 +136,35 @@ final class SRRaterTests: XCTestCase {
         
         XCTAssertEqual(ratingControl.value, expectedValue)
     }
+    
+    func testAccessibilityZeroStars() {
+        
+        let expectedValue = "No rating"
+        
+        let ratingControl = SRRater()
+        ratingControl.value = 0
+        
+        XCTAssertEqual(ratingControl.accessibilityValue, expectedValue)
+
+    }
+    
+    func testAccessibilitySingular() {
+        
+        let expectedValue = "1 star"
+        
+        let ratingControl = SRRater()
+        ratingControl.value = 1
+        
+        XCTAssertEqual(ratingControl.accessibilityValue, expectedValue)
+    }
+    
+    func testAccessibilityPlural() {
+        
+        let expectedValue = "2 stars"
+        
+        let ratingControl = SRRater()
+        ratingControl.value = 2
+        
+        XCTAssertEqual(ratingControl.accessibilityValue, expectedValue)
+    }
 }

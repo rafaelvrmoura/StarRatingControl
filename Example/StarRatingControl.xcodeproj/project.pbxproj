@@ -10,7 +10,7 @@
 		3CAED756289435DF00FECF85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAED755289435DF00FECF85 /* SceneDelegate.swift */; };
 		3CAED75828943ED500FECF85 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAED75728943ED500FECF85 /* Launch Screen.storyboard */; };
 		3CAED75C28952C8400FECF85 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAED75B28952C8400FECF85 /* UIView+AutoLayout.swift */; };
-		3CAED7C02895ACB100FECF85 /* SRRaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAED7BF2895ACB100FECF85 /* SRRaterUITests.swift */; };
+		3CAED7F028967CBC00FECF85 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAED7EF28967CBC00FECF85 /* TableViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -34,7 +34,7 @@
 		3CAED755289435DF00FECF85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CAED75728943ED500FECF85 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3CAED75B28952C8400FECF85 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
-		3CAED7BF2895ACB100FECF85 /* SRRaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRRaterUITests.swift; sourceTree = "<group>"; };
+		3CAED7EF28967CBC00FECF85 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3F88121B87301FF8449A3804 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5C7F797C20101DA08EBB2241 /* StarRatingControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StarRatingControl.podspec; path = ../StarRatingControl.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* StarRatingControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarRatingControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +129,7 @@
 				3CAED7BE2895AB9E00FECF85 /* Utils */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				3CAED755289435DF00FECF85 /* SceneDelegate.swift */,
+				3CAED7EF28967CBC00FECF85 /* TableViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -148,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* SRRaterTests.swift */,
-				3CAED7BF2895ACB100FECF85 /* SRRaterUITests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -357,6 +357,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				3CAED75C28952C8400FECF85 /* UIView+AutoLayout.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				3CAED7F028967CBC00FECF85 /* TableViewController.swift in Sources */,
 				3CAED756289435DF00FECF85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +367,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* SRRaterTests.swift in Sources */,
-				3CAED7C02895ACB100FECF85 /* SRRaterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

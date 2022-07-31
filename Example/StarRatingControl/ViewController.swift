@@ -107,6 +107,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tabBarItem = .init(tabBarSystemItem: .bookmarks, tag: 0)
         view.backgroundColor = .systemBackground
         view.addSubview(contentStack)
         
