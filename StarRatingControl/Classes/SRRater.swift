@@ -51,7 +51,6 @@ public class SRRater: UIControl {
             for (index, star) in stars.enumerated() { star.isSelected = index < _value }
             
             updateAccessibility()
-            sendActions(for: .valueChanged)
         }
     }
     
@@ -79,6 +78,7 @@ public class SRRater: UIControl {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
         stackView.spacing = Constants.starsSpacing
+        stackView.isUserInteractionEnabled = false
         
         addSubview(stackView)
         
@@ -116,6 +116,7 @@ private extension SRRater {
         for i in 1..._maximumValue {
             
             let star = SRStar()
+            star.isUserInteractionEnabled = false
             star.isSelected = i <= _value
             
             contentStack.addArrangedSubview(star)
@@ -137,33 +138,33 @@ private extension SRRater {
     }
 }
 
-// MARK: - Gesture Handlers
+// MARK: - Input Handlers
 extension SRRater {
 
-    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-        super.touchesBegan(touches, with: event)
-        
-        rate(with: touches, event: event)
+    public override func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+
+        rate(with: touch, event: event)
+        return super.beginTracking(touch, with: event)
+    }
+
+    public override func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+
+        rate(with: touch, event: event)
+        return  super.continueTracking(touch, with: event)
     }
     
-    public override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    private func rate(with touch: UITouch, event: UIEvent?) {
         
-        super.touchesMoved(touches, with: event)
-        
-        rate(with: touches, event: event)
-    }
-    
-    private func rate(with touches: Set<UITouch>, event: UIEvent?) {
-        
-        guard let touchLocation = touches.first?.location(in: contentStack) else { return }
+        let touchLocation = touch.location(in: contentStack)
         
         let centeredLocation = CGPoint(x: touchLocation.x,
                                        y: contentStack.frame.midY)
-        
-        guard let star = contentStack.hitTest(centeredLocation, with: event) as? SRStar else { return }
+
+
+        guard let star = contentStack.subviews.first(where: { $0.frame.contains(centeredLocation) }) as? SRStar else { return }
         
         value = rate(for: star)
+        sendActions(for: .valueChanged)
     }
 }
 

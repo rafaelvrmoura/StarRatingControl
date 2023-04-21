@@ -135,9 +135,9 @@ private extension ViewController {
 
     @objc
     func valueChanged(_ sender: SRRater) {
-        
-        valueLabel.text = "\(sender.value)"
+
         currentValueStepper.value = Double(sender.value)
+        updateValueLabel(with: sender.value)
     }
     
     @objc
@@ -149,8 +149,15 @@ private extension ViewController {
     
     @objc
     func currentValueChanged(_ sender: UIStepper) {
-        
-        ratingControl.value = Int(sender.value)
+
+        let value = Int(sender.value)
+        ratingControl.value = value
+        updateValueLabel(with: value)
+    }
+
+    func updateValueLabel(with value: Int) {
+
+        valueLabel.text = "\(value)"
     }
 }
 
